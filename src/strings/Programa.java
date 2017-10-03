@@ -19,7 +19,7 @@ import java.io.InputStreamReader;
 public class Programa {
     public static void main(String[] args) {
         try {
-            InputStream is = new FileInputStream("C:\\Users\\DeivisondeOliveira\\Desktop\\file.txt");
+            InputStream is = new FileInputStream("C:\\Users\\xx\\xx\\file.txt");
             InputStreamReader   isr = new InputStreamReader(is);
             BufferedReader  br = new BufferedReader(isr);
             String dados = br.readLine();

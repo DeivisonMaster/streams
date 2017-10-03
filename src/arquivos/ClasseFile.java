@@ -13,7 +13,7 @@ import java.io.File;
  */
 public class ClasseFile {
     public static void main(String[] args) {
-        File    apontador   = new File("C:\\Users\\DeivisondeOliveira\\Desktop");
+        File    apontador   = new File("C:\\Users\\xx\\Desktop");
         if(apontador.exists()){
             System.out.println("arquivo existe");
         }else{

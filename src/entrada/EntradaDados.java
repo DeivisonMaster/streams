@@ -19,7 +19,7 @@ import java.io.InputStreamReader;
 public class EntradaDados {
     public static void main(String[] args) throws FileNotFoundException, IOException {
         // FileInputStream recupera bytes de um arquivo
-        InputStream is = new FileInputStream("C:\\Users\\DeivisondeOliveira\\Desktop\\file.txt");
+        InputStream is = new FileInputStream("C:\\Users\\xx\\xx\\file.txt");
         
         // InputStreamReader manipula os caracteres do arquivo passado via parametro
         InputStreamReader isr = new InputStreamReader(is);

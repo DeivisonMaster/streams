@@ -19,7 +19,7 @@ public class LeTecladoEscreveArquivo {
         System.out.println("Digite algo");
         entrada.nextLine();
         try {
-            PrintStream ps  = new PrintStream("C:\\Users\\DeivisondeOliveira\\Desktop\\file.txt");
+            PrintStream ps  = new PrintStream("C:\\Users\\xx\\xx\\file.txt");
             for(int i = 0; i < 5; i++){
                 if(entrada.hasNextLine()){
                     ps.println(entrada.nextLine());

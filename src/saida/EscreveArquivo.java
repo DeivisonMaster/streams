@@ -18,7 +18,7 @@ import java.io.OutputStreamWriter;
  */
 public class EscreveArquivo {
     public static void main(String[] args) throws FileNotFoundException, IOException {
-        OutputStream    os  = new FileOutputStream("C:\\Users\\DeivisondeOliveira\\Desktop\\file.txt");
+        OutputStream    os  = new FileOutputStream("C:\\Users\\xx\\xx\\file.txt");
         OutputStreamWriter osw = new OutputStreamWriter(os);
         BufferedWriter  bw = new BufferedWriter(osw);
         
